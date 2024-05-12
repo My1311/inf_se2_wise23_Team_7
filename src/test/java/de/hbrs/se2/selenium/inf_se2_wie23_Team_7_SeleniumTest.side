@@ -1,0 +1,25 @@
+{
+  "id": "28c8b324-5932-4ebd-a5b6-3bfd71acb4eb",
+  "version": "2.0",
+  "name": "inf_se2_wie23_Team_7_SeleniumTest",
+  "url": "",
+  "tests": [ {
+    "id": "a1164735-2b8d-4924-b26f-a9eced76169c",
+    "name": "login",
+    "commands": []
+  }, {
+    "id": "190de369-108e-410f-b410-f33742dd0d88",
+    "name": "registration",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "789fd5b6-c97f-4d13-902f-e7552188257e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dbed75ed-7f01-427a-9109-2b010a3cf22e"]
+  }],
+  "urls": [],
+  "plugins": []
+}

@@ -1,0 +1,115 @@
+/*
+ * This file has been created by the Vaadin Theme Editor. Please note that
+ * manual changes to individual CSS properties may be overwritten by the theme editor.
+ */
+a.login-a-1 {
+  background-color:rgba(67,137,194,0);
+  color:rgba(142,126,247,1);
+  font-size:var(--lumo-font-size-s);
+}
+
+a.login-a-2 {
+  color:rgba(142,126,247,1);
+  font-size:var(--lumo-font-size-s);
+}
+
+a.register-a-1 {
+  color:rgba(142,126,247,1);
+  font-size:var(--lumo-font-size-xs);
+}
+
+continuebutton {
+  padding-left:10px;
+  padding-right:10px;
+}
+
+span.register-company-span-1 { color:rgba(0,0,0,0.9); }
+
+vaadin-button.landing-page-button-1::part(label) { color:rgb(61,66,109); }
+
+vaadin-button.landing-page-button-2::part(label) { color:rgb(61,66,109); }
+
+vaadin-button.login-button-2 {
+  background-color: rgb(61,66,109);
+  border-color:rgb(61,66,109);
+  color: rgba(255,255,255,0.2);
+  padding-inline:60px;
+}
+vaadin-button.login-button-3 {
+  --lumo-button-size:var(--lumo-size-m);
+  background-color:rgb(61,66,109);
+  border-color:rgb(61,66,109);
+  color: rgba(255,255,255,0.2);
+  border-radius:var(--lumo-border-radius-m);
+  border-width:0px;
+  padding-inline:60px;
+}
+
+
+vaadin-button.overview-advertisement-button-1 { background-color:rgb(61,66,109); }
+
+vaadin-button.register-company-button-1 { background-color:rgb(61,66,109); }
+
+vaadin-button.register-company-button-2::part(label) { color:rgba(142,126,247,1); }
+
+vaadin-button.register-student-button-1 { background-color:rgb(61,66,109); }
+
+vaadin-password-field.login-password-field-1::part(input-field) { font-size:var(--lumo-font-size-m); }
+
+vaadin-password-field.login-password-field-1::part(label) {
+  color:rgba(28,28,28,0.7);
+  font-size:var(--lumo-font-size-s);
+}
+
+vaadin-password-field.login-password-field-2::part(input-field) { font-size:var(--lumo-font-size-m); }
+
+vaadin-password-field.login-password-field-2::part(label) { color:rgba(28,28,28,0.7); }
+
+vaadin-password-field.login-password-field-3::part(clear-button) { border-width:0px; }
+
+vaadin-password-field.login-password-field-3::part(helper-text) { color:var(--lumo-secondary-text-color); }
+
+vaadin-password-field.login-password-field-3::part(input-field) {
+  color:rgba(41,41,41,0.9);
+  font-size:var(--lumo-font-size-m);
+}
+
+vaadin-password-field.login-password-field-3::part(label) { color:rgba(28,28,28,0.7); }
+
+vaadin-password-field::part(input-field) { font-size:var(--lumo-font-size-m); }
+
+vaadin-radio-group.register-radio-group-1 {
+  border-radius:var(--lumo-border-radius-m);
+  border-width:0px;
+  padding:var(--lumo-space-xs);
+}
+
+vaadin-radio-group.register-radio-group-1 vaadin-radio-button { --vaadin-radio-button-size:var(--lumo-font-size-m); }
+
+vaadin-radio-group.register-radio-group-1 vaadin-radio-button label { color:rgba(69,66,66,0.9); }
+
+vaadin-radio-group.register-radio-group-1 vaadin-radio-button[checked]::part(radio) { background-color:rgb(61,66,109); }
+
+vaadin-radio-group.register-radio-group-1::part(helper-text) { color:rgba(59,58,58,0.7); }
+
+vaadin-radio-group.register-radio-group-1::part(label) { color:rgba(28,28,28,0.7); }
+
+vaadin-text-field.login-text-field-1::part(input-field) {
+  border-width:0px;
+  font-size:var(--lumo-font-size-m);
+  height:var(--lumo-size-m);
+  width:var(100px);
+}
+
+vaadin-text-field.login-text-field-1::part(label) { color:rgba(28,28,28,0.7); }
+
+vaadin-text-field.register-company-text-field-1::part(label) { color:rgba(64,62,62,0.7); }
+
+vaadin-text-field.register-company-text-field-2::part(label) { color:rgba(69,69,69,0.7); }
+
+vaadin-text-field.register-company-text-field-3::part(helper-text) { color:rgba(66,66,66,0.7); }
+
+vaadin-text-field.register-company-text-field-3::part(label) { color:rgba(46,46,46,0.7); }
+
+
+

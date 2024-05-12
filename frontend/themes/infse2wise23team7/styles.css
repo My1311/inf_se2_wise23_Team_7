@@ -1,0 +1,190 @@
+@import "theme-editor.css";
+@import url('./main-layout.css');
+@import url('./views/job-feed-view.css');
+
+html {
+    --lumo-shade-5pct: rgba(33, 33, 33, 0.05);
+    --lumo-shade-10pct: rgba(33, 33, 33, 0.1);
+    --lumo-shade-20pct: rgba(33, 33, 33, 0.2);
+    --lumo-shade-30pct: rgba(33, 33, 33, 0.3);
+    --lumo-shade-40pct: rgba(33, 33, 33, 0.4);
+    --lumo-shade-50pct: rgba(33, 33, 33, 0.5);
+    --lumo-shade-60pct: rgba(33, 33, 33, 0.6);
+    --lumo-shade-70pct: rgba(33, 33, 33, 0.7);
+    --lumo-shade-80pct: rgba(33, 33, 33, 0.8);
+    --lumo-shade-90pct: rgba(33, 33, 33, 0.9);
+    --lumo-primary-color-50pct: hsl(231, 84%, 52%);
+    --lumo-primary-color-10pct: rgba(235, 89, 5, 0.1);
+    --lumo-error-color-50pct: rgba(231, 24, 24, 0.5);
+    --lumo-error-color-10pct: rgba(231, 24, 24, 0.1);
+    --lumo-success-color-50pct: rgba(62, 229, 170, 0.5);
+    --lumo-success-color-10pct: rgba(62, 229, 170, 0.1);
+    --lumo-shade: hsl(0, 0%, 13%);
+    --lumo-primary-color: #3e426e;
+    --lumo-primary-text-color: hsl(231, 84%, 52%);
+    --lumo-error-color: hsl(0, 81%, 50%);
+    --lumo-error-text-color: hsl(0, 86%, 45%);
+    --lumo-success-color: hsl(159, 76%, 57%);
+    --lumo-success-contrast-color: hsl(159, 29%, 10%);
+    --lumo-success-text-color: hsl(159, 61%, 40%);
+
+}
+
+[theme~="dark"] {
+    --lumo-shade-5pct: rgba(33, 33, 33, 0.05);
+    --lumo-shade-10pct: rgba(33, 33, 33, 0.1);
+    --lumo-shade-20pct: rgba(33, 33, 33, 0.2);
+    --lumo-shade-30pct: rgba(33, 33, 33, 0.3);
+    --lumo-shade-40pct: rgba(33, 33, 33, 0.4);
+    --lumo-shade-50pct: rgba(33, 33, 33, 0.5);
+    --lumo-shade-60pct: rgba(33, 33, 33, 0.6);
+    --lumo-shade-70pct: rgba(33, 33, 33, 0.7);
+    --lumo-shade-80pct: rgba(33, 33, 33, 0.8);
+    --lumo-shade-90pct: rgba(33, 33, 33, 0.9);
+    --lumo-primary-color-50pct: rgba(5, 120, 235, 0.5);
+    --lumo-primary-color-10pct: rgba(235, 89, 5, 0.1);
+    --lumo-error-color-50pct: rgba(231, 24, 24, 0.5);
+    --lumo-error-color-10pct: rgba(231, 24, 24, 0.1);
+    --lumo-success-color-50pct: rgba(62, 229, 170, 0.5);
+    --lumo-success-color-10pct: rgba(62, 229, 170, 0.1);
+    --lumo-shade: hsl(0, 0%, 13%);
+    --lumo-primary-color: hsl(231, 84%, 52%);
+    --lumo-primary-text-color: hsl(231, 84%, 52%);
+    --lumo-error-color: hsl(0, 81%, 50%);
+    --lumo-error-text-color: hsl(0, 86%, 45%);
+    --lumo-success-color: hsl(159, 76%, 57%);
+    --lumo-success-contrast-color: hsl(159, 29%, 10%);
+    --lumo-success-text-color: hsl(159, 61%, 40%);
+
+}
+
+.header_background {
+    background-color: #3e426e;
+}
+
+.drawer_toggle {
+    color: white;
+}
+
+.logo {
+    color: white;
+}
+
+a[highlight] {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.create-Button{
+    margin: 50px;
+}
+
+.cancel-Button{
+    margin: 50px;
+}
+
+.cancel-create-spacing{
+
+}
+
+.save-Button{
+    background-color:rgb(61,66,109);
+}
+
+.advertisementLink{
+    margin-right: 300px;
+    margin-left: 10px;
+    margin-top:5px
+}
+
+.v-loading-indicator {
+    background-color: #3d426d !important;
+}
+
+/*CompanyProfile*/
+
+.hourlywage {
+    width: 100px !important;
+}
+
+.deadline {
+    width: 125px !important;
+}
+
+.maxsizelabel{
+    font-size: 13px;
+}
+
+.emptyFieldsError {
+    font-size: 11px;
+}
+
+.Advertisements-Header {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 0;
+}
+
+.forgotPassword{
+    background-color:rgba(67,137,194,0);
+    color:rgba(142,126,247,1);
+    font-size:var(--lumo-font-size-s);
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.forgotPassword:hover{
+    text-decoration: underline;
+}
+
+.setProfilePic{
+    color: rgba(99, 99, 99, 0.96);
+    font-size: 14px;
+    font-weight: 600 ;
+    margin-right: 423px;
+}
+
+
+:host([theme~="grid-selection-theme"]) [part~="row"][selected] [part~="body-cell"]:not([part~="details-cell"]) {
+    background-color: blue;
+}
+
+
+@media all and (max-width: 1000px) {
+    .list-view.editing.toolbar,
+    .list-view.editing .advertisement-grid{
+        display: none
+    }
+}
+
+.landing-login-button{
+    background-color: rgb(63, 75, 129);
+    color: white;
+
+}
+
+.landing-register-button{
+    background-color:rgb(63,75,129);
+    color: white;
+    width: 300px;
+    height: 80px;
+}
+
+
+.landing-centered-text {
+    display: block;
+    text-align: center;
+}
+
+.landing-header-layout{
+    background-color:rgb(61,66,109);
+}
+
+.landing-header-title, .landing-sub-header{
+    color: white;
+}
+
+.logoutButton{
+    margin-right: 20px;
+    color: white;
+}

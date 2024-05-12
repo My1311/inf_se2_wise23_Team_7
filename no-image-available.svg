@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="278" height="256" viewBox="0 0 278 256">
+    <defs>
+        <path id="prefix__a" d="M3 0h272a3 3 0 013 3v253H0V3a3 3 0 013-3z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="prefix__b" fill="#fff">
+            <use xlink:href="#prefix__a"/>
+        </mask>
+        <use fill="#F5F5F5" xlink:href="#prefix__a"/>
+        <text fill="#AAA" font-family="SFProDisplay-Medium, SF Pro Display" font-size="14" font-weight="400" mask="url(#prefix__b)">
+            <tspan x="82" y="166">No image available</tspan>
+        </text>
+        <g fill="#D8D8D8" fill-rule="nonzero" mask="url(#prefix__b)">
+            <g>
+                <path d="M57 0H1a1 1 0 00-1 1v44a1 1 0 001 1h56a1 1 0 001-1V1a1 1 0 00-1-1zm-1 44H2V2h54v42z" transform="translate(110 87)"/>
+                <path d="M16 22.138a5.575 5.575 0 005.569-5.568A5.575 5.575 0 0016 11a5.575 5.575 0 00-5.569 5.569A5.575 5.575 0 0016 22.138zM16 13a3.574 3.574 0 013.569 3.569A3.574 3.574 0 0116 20.138a3.573 3.573 0 01-3.569-3.568A3.574 3.574 0 0116 13zM7 40c.234 0 .47-.082.66-.249l16.313-14.362L34.275 35.69a.999.999 0 101.414-1.414l-4.807-4.807 9.181-10.054 11.261 10.323a1 1 0 001.351-1.475l-12-11a1.031 1.031 0 00-.72-.262 1.002 1.002 0 00-.694.325l-9.794 10.727-4.743-4.743a1 1 0 00-1.368-.044L6.339 38.249A1 1 0 007 40z" transform="translate(110 87)"/>
+            </g>
+        </g>
+    </g>
+</svg>
